@@ -63,6 +63,16 @@ namespace COMP1004_Assignment4.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap comps {
+            get {
+                object obj = ResourceManager.GetObject("comps", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap dollarComputersLogo {
             get {
                 object obj = ResourceManager.GetObject("dollarComputersLogo", resourceCulture);
